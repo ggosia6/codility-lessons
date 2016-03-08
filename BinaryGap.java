@@ -1,4 +1,10 @@
+/* Task: Binary Gap
+   Source: codility.com - Lesson 01
+ * Find longest sequence of zeros (surrounded by ones) in binary representation of an integer.
+ */
+
 class Solution {
+    /* This method returns the maximum size of binary Gap*/
     public int solution(int N) {
         int max_gap = 0;
         int tmp_gap = 0;
