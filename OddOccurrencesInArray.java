@@ -1,7 +1,13 @@
+/* Task: Odd Occurrences In Array
+   Source: codility.com - Lesson 02
+ * Find value that occurs in odd number of elements.
+ */
+
 import java.util.HashMap;
 import java.util.Iterator;
 
 class Solution {
+    /* This method returns the value of unpaired element */
     public int solution(int[] A) {
         int value = 0;
         int number = 0;
@@ -16,7 +22,7 @@ class Solution {
         Iterator<Integer> keySetIterator = cache.keySet().iterator(); 
         while(keySetIterator.hasNext()){ 
             Integer key = keySetIterator.next();
-            if(cache.get(key) == 1) {
+            if(cache.get(key) % 2 == 1) {
                 number = key; break;
                 }
             }
