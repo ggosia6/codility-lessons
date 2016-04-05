@@ -1,6 +1,11 @@
-/* PermMissingElem */
+/*
+ * Task: Perm Missing Elem
+ * Source: codility.com - Lesson 03 - https://codility.com/programmers/task/perm_missing_elem/
+ * Find the missing element in a given permutation.
+ */
 
 class Solution {
+    /* Returns the missing elemnent */
     public int solution(int[] A) {
         int N = A.length;
         int suma = 0;
