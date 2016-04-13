@@ -1,9 +1,13 @@
+*
+ * Task: Frog River One
+ * Source: codility.com - Lesson 04 - https://codility.com/programmers/task/frog_river_one/
+ * Find the earliest time when a frog can jump to the other side of a river.
+ */
+
 import java.util.HashMap;
 
-// you can write to stdout for debugging purposes, e.g.
-// System.out.println("this is a debug message");
-
 class Solution {
+    /* Returns the first index where leaves are laying down the whole width of the river */
     public int solution(int X, int[] A) {
         int max = 0;
         int ret = -1;
