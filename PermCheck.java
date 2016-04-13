@@ -1,10 +1,13 @@
 /*
- *
+ * Task: Perm Check
+ * Source: codility.com - Lesson 04 - https://codility.com/programmers/task/perm_check/
+ * Check whether array A is a permutation.
  */
 
 import java.util.HashMap;
 
 class Solution {
+    /* Returns 1 if A is a permutation and 0 otherwise */
     public int solution(int[] A) {
         int value = 0;
         int test = 0;
