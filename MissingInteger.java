@@ -1,4 +1,10 @@
+// you can also use imports, for example:
+// import java.util.*;
 import java.util.HashMap;
+//import java.util.Iterator;
+
+// you can write to stdout for debugging purposes, e.g.
+// System.out.println("this is a debug message");
 
 class Solution {
     public int solution(int[] A) {
@@ -26,12 +32,13 @@ class Solution {
 		}
         if(max <= 0 || min > 1){
             return 1;    
-        }
-        for(int j=min;j<=max;j++){
+        }  
+        int minimum = Math.max(1,min);
+        for(int j=minimum;j<=max+1;j++){
             if(!cache.containsKey(j)){
                 return j;    
             }    
         }
-        return 0;
+        return 1;
     }
 }
