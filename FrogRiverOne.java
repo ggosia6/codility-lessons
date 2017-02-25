@@ -1,4 +1,4 @@
-*
+/*
  * Task: Frog River One
  * Source: codility.com - Lesson 04 - https://codility.com/programmers/task/frog_river_one/
  * Find the earliest time when a frog can jump to the other side of a river.
